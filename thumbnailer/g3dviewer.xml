@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+
+	<mime-type type="image/x-3ds">
+		<comment xml:lang="en">3D Studio model</comment>
+		<glob pattern="*.3ds" />
+		<glob pattern="*.asc" />
+		<glob pattern="*.prj" />
+	</mime-type>
+
+	<mime-type type="image/x-3dmf">
+		<comment xml:lang="en">3D Metafile</comment>
+		<glob pattern="*.3dmf" />
+		<glob pattern="*.3mf" />
+		<glob pattern="*.b3d" />
+	</mime-type>
+
+	<mime-type type="image/x-ac3d">
+		<comment xml:lang="en">AC3D model</comment>
+		<glob pattern="*.ac" />
+		<glob pattern="*.acc" />
+	</mime-type>
+
+    <mime-type type="image/x-cob">
+        <comment xml:lang="en">TrueSpace model</comment>
+        <glob pattern="*.cob" />
+    </mime-type>
+
+	<mime-type type="image/x-dxf">
+		<comment xml:lang="en">DXF 3D model</comment>
+		<comment xml:lang="de">DXF-3D-Modell</comment>
+		<glob pattern="*.dxf" />
+	</mime-type>
+
+	<mime-type type="image/x-iob">
+		<comment xml:lang="en">IOB 3D model</comment>
+		<glob pattern="*.iob" />
+	</mime-type>
+
+	<mime-type type="image/x-vdrift">
+		<comment xml:lang="en">VDrift 3D model</comment>
+		<glob pattern="*.joe" />
+		<glob pattern="*.car" />
+	</mime-type>
+
+	<mime-type type="image/x-lcd">
+		<comment xml:lang="en">LCD 3D model</comment>
+		<glob pattern="*.lcd" />
+	</mime-type>
+
+	<mime-type type="image/x-lwo">
+		<comment xml:lang="en">LWO 3D model</comment>
+		<glob pattern="*.lw" />
+		<glob pattern="*.lwb" />
+		<glob pattern="*.lwo" />
+	</mime-type>
+
+	<mime-type type="image/x-md2">
+		<comment xml:lang="en">Quake 2 model</comment>
+		<glob pattern="*.md2" />
+	</mime-type>
+
+	<mime-type type="image/x-md3">
+		<comment xml:lang="en">Quake 3 model</comment>
+		<glob pattern="*.md3" />
+		<glob pattern="*.mdc" />
+	</mime-type>
+
+    <mime-type type="image/x-nff">
+        <comment xml:lang="en">Neutral File Format model</comment>
+        <glob pattern="*.nff" />
+    </mime-type>
+
+	<mime-type type="image/x-obj">
+		<comment xml:lang="en">OBJ 3D model</comment>
+		<glob pattern="*.obj" />
+	</mime-type>
+
+	<mime-type type="image/x-q3d">
+		<comment xml:lang="en">Quick3D model</comment>
+		<glob pattern="*.q3o" />
+		<glob pattern="*.q3s" />
+	</mime-type>
+
+	<mime-type type="image/x-vrml">
+		<comment xml:lang="en">VRML scene</comment>
+		<glob pattern="*.vrml" />
+		<glob pattern="*.wrl" />
+	</mime-type>
+
+</mime-info>

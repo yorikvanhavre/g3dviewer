@@ -1,0 +1,71 @@
+changes since version 0.2.99.2:
+	* gui: fullscreen function
+	* gl: support for different texture environment parameters
+	* general: requires libg3d >= 0.0.5 now
+	* general: usual small, undocumented fixes and tweaks...
+
+changes since version 0.2.99.0:
+	* gui: screenshot function
+	* gui: moved to libglade
+	* gui: objects hideable
+	* general: localization
+
+changes since version 0.2.0:
+	* libg3d: moved model loading and manipulation into separate library
+	* gui: gtk+ 2.x is required now
+	* gui: gtkglext >= 1.0 is required now
+
+changes since version 0.1.99.1:
+	* plugins: moved to ${PREFIX}/lib/g3dviewer/plugins
+	* configure: look for OpenGL headers and libs in X11 path
+	* general: some warnings removed
+	* imp_ac3d: support for TORCS .acc files
+
+changes since version 0.1.1:
+	* general: texture support (for ac3d, q3o and partly 3ds)
+	* general: some code cleanup (removed dead code, some variable types
+		changed....)
+	* plugins: imp_ac3d: AC3D plugin
+	* plugins: img_sgi: SGI RGB image plugin
+	* plugins: img_gdkpixbuf: general image loader based on GdkPixbuf,
+		GTK 2.x only for now
+
+changes since version 0.1.0:
+	* general: added manpage
+	* plugins: fix for compatibility of shared libraries (PIC)
+	* plugins: imp_vrml: started buggy VRML 1.0 plugin (requires flex)
+	
+changes since version 0.0.3:
+	* general: ported to GtkGLExt (now default with GTK 2.x)
+	* general: zooming with mouse wheel (GTK 2.x only)
+	* plugins: imp_3dmf: 3D Metafile format plugin (basics for now)
+	* plugins: imp_q3o: Quick3D object/scene plugin (mesh + materials)
+	* plugins: imp_cob: TrueSpace object plugin
+	* plugins: imp_lwo: supports LWO2 objects now
+	* build system: updated some parts, include m4 files
+
+== rerelease of version 0.0.3 with changes below ==
+
+changes since version 0.0.3:
+	* general: ported to GLib/GTK+ 2.0 & GtkGlArea 1.99.0 (optional, but
+	    default, use "./configure --with-gtk12" to use Gtk+ 1.2)
+	* configure: quite a lot of changes, hopefully to make things better...
+	* interface/infowin: removed some gtk warnings
+	* plugins/imp_*.c: fixed a locale problem
+
+changes since version 0.0.2a (2002/03/21):
+	* plugins: generic support for image plugins (for height fields & textures)
+	* plugins: imp_heightfield.so plugin (generates height fields from images)
+	* plugins: img_bmp.so - Windows Bitmap loader
+	* gl: some changes in rendering, COULD be a little faster on some machines
+
+changes since version 0.0.2 (2002/03/21):
+	* pixmaps: 2 icons missing in package
+
+changes since version 0.0.1 (2002/03/09):
+	* plugins: nff plugin added
+	* gl: custom normals possible
+	* infowin: started information window
+	* main: eliminated error on exit
+	* configure: debugging not enabled by default (use
+	    --enable-debug[=<level>])

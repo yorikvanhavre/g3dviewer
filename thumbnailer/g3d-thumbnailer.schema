@@ -1,0 +1,364 @@
+<gconfschemafile>
+	<schemalist>
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-3dmf/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-3dmf/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of 3DMF models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-3dmf/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-3dmf/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for 3DMF models</short>
+		<long>Valid command plus arguments for the 3DMF document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-3ds/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-3ds/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of 3DS models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-3ds/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-3ds/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for 3DS models</short>
+		<long>Valid command plus arguments for the 3DS document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-ac3d/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-ac3d/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of AC3D models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-ac3d/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-ac3d/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for AC3D models</short>
+		<long>Valid command plus arguments for the AC3D document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-cob/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-cob/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of COB models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-cob/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-cob/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for COB models</short>
+		<long>Valid command plus arguments for the COB document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-dxf/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-dxf/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of DXF models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-dxf/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-dxf/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for DXF models</short>
+		<long>Valid command plus arguments for the DXF document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-iob/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-iob/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of IOB models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-iob/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-iob/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for IOB models</short>
+		<long>Valid command plus arguments for the IOB document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-vdrift/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-vdrift/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of VDrift models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-vdrift/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-vdrift/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for VDrift models</short>
+		<long>Valid command plus arguments for the VDrift document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-lcd/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-lcd/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of LCD models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-lcd/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-lcd/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for LCD models</short>
+		<long>Valid command plus arguments for the LCD document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-lwo/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-lwo/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of LWO models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-lwo/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-lwo/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for LWO models</short>
+		<long>Valid command plus arguments for the LWO document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-md2/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-md2/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of MD2 models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-md2/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-md2/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for MD2 models</short>
+		<long>Valid command plus arguments for the MD2 document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-md3/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-md3/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of MD3 models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-md3/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-md3/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for MD3 models</short>
+		<long>Valid command plus arguments for the MD3 document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-nff/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-nff/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of NFF models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-nff/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-nff/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for NFF models</short>
+		<long>Valid command plus arguments for the NFF document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-obj/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-obj/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of OBJ models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-obj/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-obj/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for OBJ models</short>
+		<long>Valid command plus arguments for the OBJ document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-q3d/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-q3d/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of Q3D models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-q3d/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-q3d/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for Q3D models</short>
+		<long>Valid command plus arguments for the Q3D document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-vrml/enable</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-vrml/enable</applyto>
+	<owner>g3dviewer</owner>
+	<type>bool</type>
+	<default>true</default>
+	<locale name="C">
+		<short>Enable thumbnailing of VRML models</short>
+		<long>Boolean options available, true enables thumbnailing and false disables the creation of new thumbnails</long>
+	</locale>
+</schema>
+
+<schema>
+	<key>/schemas/desktop/gnome/thumbnailers/image@x-vrml/command</key>
+	<applyto>/desktop/gnome/thumbnailers/image@x-vrml/command</applyto>
+	<owner>g3dviewer</owner>
+	<type>string</type>
+	<default>g3d-thumbnailer %i %o %s</default>
+	<locale name="C">
+		<short>Thumbnail command for VRML models</short>
+		<long>Valid command plus arguments for the VRML document thumbnailer.  See nautilus thumbnailer documentation for more information.</long>
+	</locale>
+</schema>
+
+	</schemalist>
+</gconfschemafile>

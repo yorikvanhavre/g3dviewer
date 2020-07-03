@@ -1,0 +1,14 @@
+G3D-THUMBNAILER
+
+the directory "thumbnailer" contains a program to create small images
+("thumbnails") for file managers like Nautilus. The program ("g3d-thumbnailer")
+is installed by default, but the integration step has to be done on a user
+basis at the moment. To install the mime information (freedesktop.org shared
+mime info stuff) and the integration into Nautilus you have to do the
+following steps as _normal user_:
+
+$ cd thumbnailer
+$ make install-data-user
+
+This procedure will be integrated into the usual installation process for
+all users in the future.

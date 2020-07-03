@@ -1,0 +1,23 @@
+g3dviewer - a 3D file viewer
+
+REQUIREMENTS:
+	* GTK+ 2.4+
+	* libglade >= 2.4.0
+	* GtkGLExt 1.0+
+	* OpenGL (GL & GLU library)
+	* Flex (optional, for VRML plugin)
+
+	Debian (Sarge+) Packages:
+	* GTK+ 2.4+:       libgtk2.0-dev
+	* libglade         libglade2-dev
+	* GtkGLExt:        libgtkglext1-dev
+	* Mesa GL:         xlibmesa-gl-dev
+	* Mesa GLU:        xlibmesa-glu-dev
+	* Flex:            flex
+
+INSTALLATION:
+	Usual autoconf/automake installation, refer to INSTALL if you are not
+	familiar with this procedure.
+
+SUPPORTED FILETYPES:
+	* see libg3d README

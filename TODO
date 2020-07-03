@@ -1,0 +1,64 @@
+# OUT OF DATE!
+
+short term:
+	* flex version check
+	* type cleanup
+	* fix imp_heightfield
+	* optional plugins
+
+	* 3ds lights
+	* correct normals (right direction faces) [added a hack (two-sided faces)]
+	* debug/info window (model tree, plugin infos, debug output...)
+
+longer term:
+	* more filetype of course
+	  	* .max (no specs, may be just serialization of internal objects,
+		  so very hard to implement)
+		* .wrl / .vrml (on the way)
+		* .x3d (http://www.web3d.org/x3d/specifications/)
+		* .flt (specs available)
+		* .off
+		* .blend (current blender format hard to implement (similar to .max),
+		  blender will move to xml based format some time)
+		* .off
+		* .lcd (LeoCAD, http://leocad.org/, parts library: specs available,
+		  lcd project files: source available)
+
+-------------------------------------------------------------------------------
+done:
+* center objects
+* 3ds color materials
+* interface inprovements (open dialog)
+* move .so file building to libtool
+-------------------------------------------------------------------------------
+TODO for 0.2.0
+* type cleanup (GLib / GL types only)
+* textures optional
+* twosided faces optional again
+* heightfield?
+
+release testing:
+
+                         0.1.0 0.2.0
+* GTK+ 1.2 + GtkGLArea:    x     ?
+* GTK+ 2.x + GtkGLExt:     x     x
+
+plugins [1]:
+* .3mf / .b3d              x
+* .3ds                     x
+* .ac                      -
+* .cob                     x
+* .dxf                     x
+* .iob                     x
+* .lwo (LWOB)              x
+* .lwo (LWO2)              x
+* .md2                     x
+* .obj                     x
+* .prj                     x
+* .q3o / .q3s              x
+* heightfield             [2]
+
+[1] plugin works with some (most) models and doesn't crash with unsupported
+    files
+[2] not working in 0.1.0 for some mysterious reason
+

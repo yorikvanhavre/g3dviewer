@@ -1,0 +1,68 @@
+.\" vim:set ft=nroff:
+.TH G3DVIEWER 1 "july 22nd 2005"
+.SH NAME
+g3dviewer \- a program to display and inspect 3D models
+.SH SYNOPIS
+.B g3dviewer\fP\fI [options] [<filename>]\fP
+.SH DESCRIPTION
+After loading a valid model it should appear on the screen.
+
+Use the \fBleft mouse button\fP to rotate the model.
+
+To zoom the model use the \fBscroll wheel\fP or hold the
+\fBmiddle mouse button\fP and move the mouse up or down.
+
+The \fBright mouse button\fP opens a context menu where you can open the
+model information dialog, set some options or change the background color.
+.SH OPTIONS
+.TP
+.B \-\-help
+Show summary of options
+.SH """UNDOCUMENTED""" OPTIONS
+There are also some options which are just for development.
+.TP
+.B \-\-parse\-only
+Just parse the model and exit.
+.SH SUPPORTED FILE TYPES
+.TP
+.B .3mf, 3dmf
+3D Metafiles.
+.TP
+.B .3ds, .prj
+3D Studio objects.
+.TP
+.B .b3d
+unknown, but 3D Metafile format.
+.TP
+.B .cob
+Caligary TrueSpace objects.
+.TP
+.B .dxf
+AutoCAD models.
+.TP
+.B .iob
+Impulse Turbo Silver / Imagine objects.
+.TP
+.B .lw, .lwo, .lwb
+LightWave objects.
+.TP
+.B .md2
+Quake 2 models.
+.TP
+.B .nff
+Neutral File Format objects.
+.TP
+.B .obj
+Wavefront objects.
+.TP
+.B .q3o, .q3s
+Quick3D objects and scenes.
+.TP
+.B .wrl
+VRML worlds.
+.SH BUGS
+Most import plugins are incomplete. The goal is not to crash on broken
+input but it is not always reached.
+.SH AUTHOR
+g3dviewer was written by Markus Dahms <mad@automagically.de>
+
